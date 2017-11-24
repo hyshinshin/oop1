@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // ㅇ랑랃랑라랃라ㅓㄷㄹ아렁ㄹ다라ㅓㄹㅇ
 /* test code for input var */
 
 
