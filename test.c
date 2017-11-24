@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 /* test code for input var */
+
 
 int g_var1 = 0;
 void exFunc(int * var);
