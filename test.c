@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /* test code for input var */
 
 
