@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 
-
+//
 enum color{white,navy,pink,yellow,blue,green,darkblue,liteblue,beige,khaki,black};
 
 using namespace std;
@@ -14,11 +14,11 @@ private:
 	char name[100];
 	char style[100];
 	char color;
-	int length; //¹İÆÈ,±äÆÈ,Ä¥ºÎ?
-	int insulation;//º¸¿Â¼º
+	int length; //ë°˜íŒ”,ê¸´íŒ”,ì¹ ë¶€?
+	int insulation;//ë³´ì˜¨ì„±
 	int trend; //1~5
 	
-	string pictureroot; //filepath root¸¦  ÀúÀå
+	string pictureroot; //filepath rootë¥¼  ì €ì¥
 
 public:
 	clothes(char* name, char col, int len, int thick);
@@ -46,10 +46,10 @@ private:
 	int texture; 
 	
 
-	// style?? ¸·,,ÄÚÆ®,¶óÀÌ´õ, ÀÌ·±°Å ±¸ºĞ?
+	// style?? ë§‰,,ì½”íŠ¸,ë¼ì´ë”, ì´ëŸ°ê±° êµ¬ë¶„?
 	string pricturename;
 
-	// ¼Ó¼º ´õ »ı°¢ÇÏ±â 
+	// ì†ì„± ë” ìƒê°í•˜ê¸° 
 public:
 	Outer(char* name, char col, int len, int thick);
 
@@ -64,10 +64,10 @@ public:
 
 class top :clothes {
 private:
-	int thickness;//µÎ²²
+	int thickness;//ë‘ê»˜
 	bool accessary;
 	
-	//¼Ó¼º´õ »ı°¢ÇÏ±â
+	//ì†ì„±ë” ìƒê°í•˜ê¸°
 public:
 	
 	
@@ -93,7 +93,7 @@ public:
 
 };
 
-class shoes { //½Å¹ß±îÁö???
+class shoes { //ì‹ ë°œê¹Œì§€???
 private:
 
 public:
@@ -103,7 +103,7 @@ class accsseary{
 
 };
 
-class manager {//¿ÊÀå °ü¸®, Ãß°¡,»èÁ¦,
+class manager {//ì˜·ì¥ ê´€ë¦¬, ì¶”ê°€,ì‚­ì œ,
 
 public:
 
@@ -137,7 +137,7 @@ public:
 
 	}
 	//
-	void trend(vector<set>) {// trend Á¡¼öÀÇ ÇÕÀ¸·Î 
+	void trend(vector<set>) {// trend ì ìˆ˜ì˜ í•©ìœ¼ë¡œ 
 
 	}
 
